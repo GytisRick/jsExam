@@ -23,7 +23,7 @@ const showResults = (responseItems) => {
 
     responseItems.forEach((item) => {
         const card = document.createElement("div");
-        card.className = "card"; // stiliu geriau prisideti i CSS
+        card.className = "card";
 
         const brand = document.createTextNode(item.brand);
         card.appendChild(brand);
@@ -41,5 +41,3 @@ const showResults = (responseItems) => {
     });
 
 }
-
-//nera stiliaus
