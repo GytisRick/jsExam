@@ -25,3 +25,4 @@ console.log('turi augintinį: ', filterDogOwers(users));
 
 const filterAdults = (items) => items.filter(item => item.age >= 18);
 console.log('yra pilnameciai: ', filterAdults(users));
+
