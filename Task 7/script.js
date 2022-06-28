@@ -17,9 +17,3 @@ const showObjectKeys = (obj) => Object.keys(obj);
 
 console.log(showObjectKeys(audi));
 
-//nepagavau uzduoties, net pats nzn ka bandziau dryti
-/**
- * Objectas sudarytas is key: value reiksmiu.
- * reik grazinti key reiksmes masyve
- */
-
